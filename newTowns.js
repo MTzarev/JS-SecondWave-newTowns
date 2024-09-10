@@ -6,7 +6,6 @@ function newTowns(arr) {
         townObj.name = line[0];
         townObj.latitude = line[1];
         townObj.longitude = line[2];
-
         console.log(townObj);
     }
 }
